@@ -20,17 +20,16 @@ There should hopefully be no subsequent additions or deletions reported by the t
 + terraform **version v0.11.11** needs to be installed
 + jq see:  https://stedolan.github.io/jq/  (On macOS also available via $ brew install jq)
 
-
-
 ## Quickstart guide to using the tool
 
 Running the tool in your local shell (bash) required these steps:
+
 1. Unzip or clone this git repo into an empty directory
 2. login to the Azure cli2  (az login)
 3. run the tool 
 
-
 ## Experimental: using the docker version
+
 1. Build with: $ docker build --rm -f "Dockerfile" -t az2tf:latest .
 2. If it doesn't already exist make a "generated" directory ($ mkdir generated)
 3. Run with "$ ./runme.sh"
